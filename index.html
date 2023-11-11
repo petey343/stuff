@@ -30,7 +30,10 @@
       >
         <img class="search-icon" src="./images/search.svg" alt="" />
       </button>
-      <button class="navbar-button voice-search-button">
+      <button
+        class="navbar-button voice-search-button tooltip"
+        data-tool-tip="Voice Search"
+      >
         <img
           class="voice-search-icon"
           src="./images/voice-search-icon.svg"
@@ -39,9 +42,15 @@
       </button>
     </div>
     <div class="navbar-right">
-      <img class="right-icons" src="./images/upload.svg" alt="" />
-      <img class="right-icons" src="./images/youtube-apps.svg" alt="" />
-      <img class="right-icons" src="./images/notifications.svg" alt="" />
+      <div class="tooltip" data-tool-tip="Upload a video">
+        <img class="right-icons" src="./images/upload.svg" alt="" />
+      </div>
+      <div class="tooltip" data-tool-tip="Google Apps">
+        <img class="right-icons" src="./images/youtube-apps.svg" alt="" />
+      </div>
+      <div class="tooltip" data-tool-tip="Notifications">
+        <img class="right-icons" src="./images/notifications.svg" alt="" />
+      </div>
       <img class="user-thumbnail" src="./images/my-channel.jpeg" alt="" />
     </div>
   </header>
